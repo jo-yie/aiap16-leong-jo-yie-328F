@@ -10,6 +10,7 @@ from sklearn.metrics import classification_report
 import matplotlib.pyplot as plt 
 import seaborn as sns
 
+# Converting .csv into pandas df
 df = pd.read_csv('data/cleaned_dataset.csv')
 
 # Split dataset into features and target variable
