@@ -17,22 +17,20 @@ In task 1, EDA was performed to understand the relationships between different v
 
 ## Features in the Dataset 
 The following table shows how features in the dataset were processed before being used in the machine learning models. 
-Age,Male,COPDHistory,GeneticMarkers,AirPollutionExposure,WeightChange,Smoker,YearsSmoking,TakenBronchodilators,FrequencyOfTiredness,RightHanded,LungCancerOccurrence
-| Feature Name         | Description                              | Processing Steps                                         |
-|----------------------|------------------------------------------|----------------------------------------------------------|
-| Age                  | Age of individuals in years              | - Negative values converted to positive                  |
-| Male                 | Gender of individuals                    | - Categorical encoding (0: Female, 1: Male)              |
-| COPDHistory          | Presence of COPD history                 | - Categorical encoding (0: No, 1: Yes)                   |
-| GeneticMarkers       | Presence of genetic markers              | - Categorical encoding (0: Not Present, 1: Present)      |
-| AirPollutionExposure | Level of air pollution exposure          | - Categorical encoding (0: None/Low, 1: Medium, 2: High) |
-| WeightChange         | Change in individuals weight             | - Feature engineering (Current Weight - Last Weight)     |
-| Smoker               | Indicates whether individual is smoker   | - Feature engineering, categorical encoding              |
-|                      |                                          |   (0: Not a smoker, 1: Smoker)                           |
-| YearsSmoking         | Number of years individual smoked        | - Feature engineering (Stop Smoking - Start Smoking)     |
-| TakenBronchodilators | History of taking bronchodilators        | - Categorical encoding (0: No, 1: Yes)                   |
-| FrequencyOfTiredness | Frequency of feeling tired               | - Categorical encoding (0: None/Low, 1: Medium, 2: High) |
-| RightHanded          | Dominant hand                            | - Categorical encoding (0: Left Handed, 1: Right Handed) |
-| LungCancerOccurrence | Diagnosed with lung cancer               | - Target variable for classification model               |
+| Feature Name         | Description                              | Processing Steps                                                          |
+|----------------------|------------------------------------------|---------------------------------------------------------------------------|
+| Age                  | Age of individuals in years              | - Negative values converted to positive                                   |
+| Male                 | Gender of individuals                    | - Categorical encoding (0: Female, 1: Male)                               |
+| COPDHistory          | Presence of COPD history                 | - Categorical encoding (0: No, 1: Yes)                                    |
+| GeneticMarkers       | Presence of genetic markers              | - Categorical encoding (0: Not Present, 1: Present)                       |
+| AirPollutionExposure | Level of air pollution exposure          | - Categorical encoding (0: None/Low, 1: Medium, 2: High)                  |
+| WeightChange         | Change in individuals weight             | - Feature engineering (Current Weight - Last Weight)                      |
+| Smoker               | Indicates whether individual is smoker   | - Feature engineering, categorical encoding (0: Not a smoker, 1: Smoker)  |
+| YearsSmoking         | Number of years individual smoked        | - Feature engineering (Stop Smoking - Start Smoking)                      |
+| TakenBronchodilators | History of taking bronchodilators        | - Categorical encoding (0: No, 1: Yes)                                    |
+| FrequencyOfTiredness | Frequency of feeling tired               | - Categorical encoding (0: None/Low, 1: Medium, 2: High)                  |
+| RightHanded          | Dominant hand                            | - Categorical encoding (0: Left Handed, 1: Right Handed)                  |
+| LungCancerOccurrence | Diagnosed with lung cancer               | - Target variable for classification model                                |
 
 ## Machine Learning Models Used
 
